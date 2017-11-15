@@ -233,7 +233,7 @@ fail:
 	}
 }
 
-BOOL PFMoveIsInProgress() {
+BOOL PFMoveIsInProgress(void) {
     return MoveInProgress;
 }
 
